@@ -1,10 +1,14 @@
 ﻿namespace DelegateHW11
 {
-    internal class Program
+
+
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var opManager = new OperationManager(20, 10);
+            var result = opManager.Execute(Operation.Sum);
+            
         }
     }
 }
