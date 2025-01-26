@@ -24,3 +24,5 @@ TestResults.xml
 *.sln
 *.csproj
 /DelegateHW11/DelegateHW11/obj
+/DelegateHW11/bin
+/DelegateHW11/obj
