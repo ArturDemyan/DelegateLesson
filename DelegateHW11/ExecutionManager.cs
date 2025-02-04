@@ -30,6 +30,7 @@ namespace DelegateHW11
         {
             PopulateFunctions(Operation.Sum, () => _operationManager.Sum());
             PopulateFunctions(Operation.Multiply, () => _operationManager.Multiply());
+            PopulateFunctions(Operation.Multiply, () => _operationManager.Subtract());
         }
 
     }
